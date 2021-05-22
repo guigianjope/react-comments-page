@@ -14,7 +14,7 @@ function App() {
     //We need to wrap everything inside the Provider Component.
     <Provider>
       
-        <img src={Photo}/>;
+        <img src={Photo}/>
       
       <AddComment />
       <Contacts />

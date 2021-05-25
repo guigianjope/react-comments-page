@@ -6,7 +6,7 @@ class Image extends React.Component {
     render() {
         return (
             <>
-                <img src={Photo}/>
+                <img src={Photo} alt="Lorem ipsun"/>
             </>    
         )      
     }

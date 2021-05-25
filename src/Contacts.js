@@ -52,7 +52,7 @@ class Contacts extends React.Component {
                       >
                         Delete comment
                       </button>
-                      <button className="btn"
+                      {/* <button className="btn"
                         onClick={(e) => {
                           this.setState({
                             editeUser: !this.state.editeUser
@@ -61,7 +61,7 @@ class Contacts extends React.Component {
                       >
                         {" "}
                         Edit Comment
-                      </button>
+                      </button> */}
                       <hr />
                     </div>
                   )}

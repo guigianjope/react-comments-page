@@ -78,15 +78,19 @@ h6 {
 }
 
 .btn {
-  background-color: orangered;
-  padding: 5px;
-  margin: 5px;
-  color: white;
-  border-radius: 5px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #3682d8, #94acda);
+  box-shadow: 0 35px 45px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }
 .btn:hover {
   cursor: pointer;
-  background-color: yellow;
-  color: orangered;
+  transform: scale(1.1);
 }
 

@@ -16,6 +16,7 @@ header {
 }
 
 .logo {
+  margin-left: 10%;
   font-size: 30px;
   cursor: pointer;
 }
@@ -23,7 +24,7 @@ header {
 ul {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 10%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -40,15 +41,22 @@ li:hover {
   color: yellow;
 }
 
-img {
+.main-image {
   width: 100%;
   max-height: 800px;
   border-radius: 10px;
 }
 
+.title-image {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
 div {
   padding: 10px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 body {
@@ -56,6 +64,7 @@ body {
   width: 80%;
   top: 80px;
   left: 10%;
+  background-color: rgb(233, 233, 233);
 }
 
 p {
@@ -63,12 +72,31 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.user-info {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 h5 {
   font-size: 15px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 12px;
+  color: grey;
 }
 
 .card-text{

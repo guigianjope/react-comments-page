@@ -2,6 +2,9 @@ import React from "react";
 
 import EditUser from "./EditUserComponent";
 import { Consumer } from "./Context"; // Import Consumer from Context.js
+
+import User from "./user.png";
+
 class Contacts extends React.Component {
   state = {
     editeUser: false
@@ -34,10 +37,13 @@ class Contacts extends React.Component {
                     <EditUser editUserFunction={this.editUserState} />
                   ) : (
                     <div className="card-body">
-                      <h5 className="card-title">{contact.name}</h5>
-                      <h6 className="card-subtitle mb-2 text-muted">
-                        {contact.email}
-                      </h6>
+                      <div className="user-info">
+                        <img className="user-image" src={User} alt="user profile" />
+                        <h5 className="card-title">{contact.name}</h5>
+                        <h6 className="card-subtitle mb-2 text-muted">
+                          {contact.email}
+                        </h6>
+                      </div>
                       <p className="card-text">{contact.body}</p>
                       <button className="btn"
                         onClick={() => {

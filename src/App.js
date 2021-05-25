@@ -9,7 +9,7 @@ import AddComment from "./AddComment";
 
 import Header from "./Header";
 
-import Photo from "./photo.jfif";
+import Image from "./Photo";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
     <Provider>
       <Header />
 
-        <img src={Photo}/>
+      <Image />
       
       <AddComment />
       <Contacts />
